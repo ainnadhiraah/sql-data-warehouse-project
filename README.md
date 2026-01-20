@@ -84,3 +84,7 @@ data-warehouse-project/
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+---
+### Notes
+
+During bulk ingestion into the bronze layer, one record was not loaded in the bronze.erp_cust_az12 table. The missing record was identified via source-to-target reconciliation and inserted manually to ensure completeness.
